@@ -1,5 +1,5 @@
-# Neste exemplo, podemos observar uma forma mais verbosa do desafio
-# número 2, mas que também funciona.
+# Neste exemplo, podemos observar uma forma mais verbosa de se encontrar
+# um palíndromo, mas que também funciona.
 
 def palindromo(palavra)
     indice = palavra.length
