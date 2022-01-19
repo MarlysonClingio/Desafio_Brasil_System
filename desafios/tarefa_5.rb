@@ -25,8 +25,8 @@
 begin
     print "Digite o DDD da cidade que deseja encontrar: "
     ddd = gets.to_i
-rescue => exception
-    print "Dado inválido: " + exception.message
+rescue Exception => e
+    print "Dado inválido: " + e.message
 end
 
 

@@ -4,11 +4,12 @@
 def palindromo(palavra)
 
     palavra.downcase!
+    palavra_reversa = palavra.reverse
 
-    if palavra.reverse == palavra
-        return print "A sua palavra é um palíndromo = #{palavra}\n"
+    if palavra_reversa == palavra
+        return print "A sua palavra é um palíndromo = #{palavra_reversa}\n"
     else
-        return print "A sua palavra não é um palíndromo = #{palavra}\n"
+        return print "A sua palavra não é um palíndromo = #{palavra_reversa}\n"
     end
 end
 

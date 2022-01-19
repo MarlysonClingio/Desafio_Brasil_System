@@ -3,8 +3,8 @@
 begin
     print "Digite sua data de nascimento(Ex.: 07/07/1987): "
     data_nascimento = gets.chomp.strip
-rescue => exception
-    print "Sua data foi inserida de forma incorreta: " + exception.message
+rescue Exception => e
+    print "Sua data foi inserida de forma incorreta: " + e.message
 end
 
 
