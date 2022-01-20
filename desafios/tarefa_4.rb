@@ -7,7 +7,6 @@ rescue Exception => e
     print "Sua data foi inserida de forma incorreta: " + e.message
 end
 
-
 list_texto = data_nascimento.split("")
 
 list_numeros = []
@@ -19,7 +18,7 @@ end
 ultimo = 0
 soma = 0
 list_numeros.each do |item|
-    
+        
     if item == 0
         ultimo += 1
         next item
@@ -33,5 +32,5 @@ list_numeros.each do |item|
         end
     end
 end
-
+    
 print " = #{soma}"
