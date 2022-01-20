@@ -1,5 +1,6 @@
 module Classes
     class ContaBancaria
+
         attr_accessor :nome, :saldo
 
         def initialize(nome, saldo)
